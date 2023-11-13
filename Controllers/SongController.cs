@@ -11,10 +11,10 @@ namespace exercise.Controllers
     public class SongController : ControllerBase
     {
         
-        [HttpGet]
-        public async Task<IActionResult> GetAllSongs(){
-            var result = 
-        }
+        // [HttpGet]
+        // public async Task<IActionResult> GetAllSongs(){
+        //     var result = 
+        // }
         
     }
 }
