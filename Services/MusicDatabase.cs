@@ -13,7 +13,7 @@ namespace exercise.Services
         public DbSet<Artist> Artists { get; set; }
         public DbSet<Song> Songs { get; set; }
         
-        public Database database;
+        public MusicDatabase database = new MusicDatabase();
 
     }
 }
